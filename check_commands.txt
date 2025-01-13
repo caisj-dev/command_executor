@@ -1,0 +1,10 @@
+echo "开始执行检测流程..."
+
+# 检查并处理 test1.txt
+python3 main.py execute --check-file "test1.txt" --check-minutes 5 'echo "test1.txt 最近有更新"'
+
+# 检查并处理 test2.txt
+python3 main.py execute --check-file "test2.txt" --check-minutes 10 'cat test2.txt'
+
+# 执行常规命令
+date 

@@ -1,0 +1,6 @@
+echo "Hello, 这是第一条命令"
+ls -l
+ --check-file "test1.txt" --check-minutes 5
+pwd
+python3 -c "print('这是一个Python命令')"
+date 

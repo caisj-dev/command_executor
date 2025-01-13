@@ -1,0 +1,4 @@
+echo "开始并行执行..."
+sleep 2 && echo "命令1完成"
+echo "命令2立即完成"
+date 
